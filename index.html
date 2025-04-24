@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HelpMom</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <!-- Metatags for SEO optimization -->
     <meta name="description" content=".">
     <meta name="keywords" content="">
@@ -15,12 +20,12 @@
 <body>
 <div class="navbar">
     <div class="left">
-        <span class="bold-large-text">HelpMom</span>
-        <img src="ADJUNTARLOGO" alt="Logo" width="60" height="60">
+        <img src="/img/logo.png" alt="Logo" height="60">
     </div>
     <div class="center">
         <label class="nav-link" data-section="home-section">About</label>
         <label class="nav-link" data-section="about-section">What do we do</label>
+        <label class="nav-link" data-section="about-section">Productos</label>
         <label class="nav-link" data-section="contact-section">Contact</label>
         <label class="nav-link" data-section="contact-section">Suscriptions</label>
     </div>
@@ -36,7 +41,7 @@
         </div>
     </div>
     <div class="banner-image">
-        <img src="adjuntarimagen" alt="Imagen del banner">
+        <img src="/img/pregnant-woman.webp" alt="Imagen del banner">
     </div>
 </div>
 
@@ -54,16 +59,72 @@
     </div>
 </div>
 
-<div class="banner-info-01">
-    <div class="banner-info-01-left">
-        <h1>Benefits</h1>
-        <p class="center-text">...</p>
+<!-- Sección Productos -->
+<section id="Productos" class="contenido_productos">
+    <h2 class="title">PRODUCTOS</h2>
+    <p class="subtitle">Explora nuestra variedad de productos.</p>
+    <div class="box-contenedor">
+        <!-- Producto 1 -->
+        <div class="box" aria-label="Seguimiento de citas prenatales">
+            <div class="box-content">
+                <div>
+                    <h3>Seguimiento de Citas Prenatales</h3>
+                    <ul class="product-features">
+                        <li>Recordatorios automáticos para controles</li>
+                        <li>Calendario personalizado por trimestre</li>
+                        <li>Almacenamiento de resultados médicos</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="/img/img_prod_1.png" alt="Icono de calendario con corazón" class="producto-imagen">
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="box" aria-label="Monitoreo postparto">
+            <div class="box-content">
+                <div>
+                    <h3>Monitoreo Postparto</h3>
+                    <ul class="product-features">
+                        <li>Registro de síntomas físicos/emocionales</li>
+                        <li>Alertas para signos de complicaciones</li>
+                        <li>Guías de recuperación personalizadas</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="/img/img_prod_2.png" alt="Monitoreo postparto" class="producto-imagen">
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="box" aria-label="Recordatorios inteligentes">
+            <div class="box-content">
+                <div>
+                    <h3>Recordatorios Inteligentes</h3>
+                    <ul class="product-features">
+                        <li>Alarmas para medicamentos y vitaminas</li>
+                        <li>Seguimiento de lactancia materna</li>
+                        <li>Integración con dispositivos wearables</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="/img/img_prod_3.png" alt="Recordatorios inteligentes" class="producto-imagen">
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="box" aria-label="Comunidad de apoyo">
+            <div class="box-content">
+                <div>
+                    <h3>Comunidad de Apoyo</h3>
+                    <ul class="product-features">
+                        <li>Foros moderados por especialistas</li>
+                        <li>Recursos educativos certificados</li>
+                        <li>Webinars con profesionales</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="/img/img_prod_4.png" alt="Comunidad de apoyo" class="producto-imagen">
+        </div>
     </div>
-    <div class="banner-info-01-right">
-        <img src="adjuntar imagen" alt="info 01">
-        <img src="adjuntar imagen" alt="info 02">
-    </div>
-</div>
+</section>
 
 <section class="pricing-plans">
     <h2>Suscriptions</h2>

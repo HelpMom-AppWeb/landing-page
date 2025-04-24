@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .plan h3 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -520,4 +524,92 @@ box-sizing: border-box;
 .footer-social img {
     width: 30px;
     height: 30px;
+}
+
+/* ==== SECCIÓN PRODUCTOS ==== */
+.contenido_productos {
+    height: auto; /* Cambiado de 100vh a auto para mejor responsividad */
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F2ED;
+}
+
+.box-contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    height: 270px;
+    width: 100%;
+    max-width: 590px;
+    display: flex;
+    background: #fdb2be;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0,0,0,0.1);
+    margin: 1rem;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.box-content {
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.producto-imagen {
+    width: auto; /* Ancho fijo */
+    height: 250px;
+    max-height: 60%;
+    object-fit: cover;
+    padding:40px;
+}
+.box h3 {
+    margin-left: 20px;
+
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.box ul {
+    padding-left: 21px;
+}
+
+.box ul li {
+    margin-left: 20px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#Productos h2 {
+    color: rgb(0, 0, 0);
+    font-size:90px; /* Reducido de 96px para mejor legibilidad */
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+#Productos .subtitle {
+    color: #b1757f;
+    font-size: 24px;
+    font-style: normal;
+    margin-bottom: 40px;
+    text-align: center;
 }
