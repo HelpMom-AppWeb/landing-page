@@ -22,9 +22,9 @@ body {
 .plan a.btn:hover {
     background: linear-gradient(
             45deg,
-            rgb(198, 135, 235),
-            rgb(200, 173, 230),
-            rgb(203, 135, 235),
+            #fdb2be,
+            #fdb2be,
+            #fdb2be,
             rgb(230, 173, 227),
             rgb(207, 135, 235),
             rgb(195, 173, 230),
@@ -34,7 +34,7 @@ body {
 }
 
 .pricing-plans h2 {
-    color: rgb(215, 135, 235);
+    color: #fdb2be;
 }
 
 
@@ -129,26 +129,26 @@ button:hover::before {
 }
 
 .main-banner {
-    background-color: #f0f0f0;
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    min-height: 400px;
     display: flex;
-    width: 100%;
-    height: 600px;
-    overflow:hidden;
-
-}
-.banner-text, .banner-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+    padding-left: 4rem; /* Add space from the left edge */
+}
+.banner-image {
+    display: none; /* Hide the old image container */
 }
 
 .banner-text {
     text-align: left;
-    display:flex;
-    flex-direction: column;
-    background-color: white;
-
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 3rem 4rem; /* Adjusted padding */
+    border-radius: 1rem;
+    max-width: 600px;
 }
 .banner-text h1 {
     font-size: 36px;
@@ -161,18 +161,6 @@ button:hover::before {
     color: #666;
 }
 
-.banner-image img {
-    height: 50%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner-image img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
 
 .team-members-div{
     margin-top: 3rem;
@@ -363,7 +351,7 @@ button:hover::before {
 }
 
 .pricing-plans h2 {
-    color: rgb(235, 135, 213);
+    color: #fdb2be;
 }
 
 .plans-container{
@@ -607,7 +595,7 @@ button:hover::before {
 }
 
 #Productos .subtitle {
-    color: #b1757f;
+    color: #fdb2be;
     font-size: 24px;
     font-style: normal;
     margin-bottom: 40px;
@@ -704,4 +692,9 @@ button:hover::before {
 
 .input-group textarea {
     resize: none;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
