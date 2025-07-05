@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'pricing-title': 'Subscriptions',
             'plan1-title': 'First Plan',
             'plan1-subtitle': 'Perfect for first-time moms who want a simple way to track health.',
-            'plan1-price': '$10 per month',
+            'plan1-price': '10 per month',
             'plan1-li1': 'Register 1 baby',
             'plan1-li2': 'Track vital signs (prenatal and postnatal)',
             'plan1-li3': 'Upload medical documents',
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'plan1-button': 'Choose',
             'plan2-title': 'Second Plan',
             'plan2-subtitle': 'Ideal for moms looking for a more complete support experience.',
-            'plan2-price': '$30 per month',
+            'plan2-price': '30 per month',
             'plan2-li1': 'Register up to 2 babies',
             'plan2-li2': 'Chat with assigned doctor',
             'plan2-li3': 'Receive digital prescriptions',
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'plan2-button': 'Choose',
             'plan3-title': 'Premium Plan',
             'plan3-subtitle': 'For families wanting continuous and personalized monitoring.',
-            'plan3-price': '$100 per month',
+            'plan3-price': '100 per month',
             'plan3-li1': 'Register multiple babies',
             'plan3-li2': 'Access to multiple specialists',
             'plan3-li3': 'Video consultations',
@@ -87,6 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Team
             'team-title': 'Learn More About Us',
             'team-subtitle': 'About the Team',
+            'career': 'software developer',
 
             // Contact
             'contact-title': 'Contact',
@@ -157,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'pricing-title': 'Suscripciones',
             'plan1-title': 'Primer Plan',
             'plan1-subtitle': 'Perfecto para madres primerizas que desean una forma sencilla de monitorear su salud.',
-            'plan1-price': '$10 por mes',
+            'plan1-price': '10 por mes',
             'plan1-li1': 'Registrar 1 bebé',
             'plan1-li2': 'Seguimiento de signos vitales (prenatal y postnatal)',
             'plan1-li3': 'Subir documentos médicos',
@@ -167,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'plan1-button': 'Elegir',
             'plan2-title': 'Segundo Plan',
             'plan2-subtitle': 'Ideal para madres que buscan una experiencia de apoyo más completa.',
-            'plan2-price': '$30 por mes',
+            'plan2-price': '30 por mes',
             'plan2-li1': 'Registrar hasta 2 bebés',
             'plan2-li2': 'Chat con médico asignado',
             'plan2-li3': 'Recibir recetas digitales',
@@ -177,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'plan2-button': 'Elegir',
             'plan3-title': 'Plan Premium',
             'plan3-subtitle': 'Para familias que desean monitoreo continuo y personalizado.',
-            'plan3-price': '$100 por mes',
+            'plan3-price': '100 por mes',
             'plan3-li1': 'Registrar múltiples bebés',
             'plan3-li2': 'Acceso a múltiples especialistas',
             'plan3-li3': 'Consultas por video',
@@ -188,6 +189,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Team
             'team-title': 'Conoce Más Sobre Nosotros',
             'team-subtitle': 'Acerca del Equipo',
+            'career': 'Ingeniería de Software',
+
 
             // Contact
             'contact-title': 'Contacto',

@@ -116,13 +116,24 @@ section:nth-child(even) {
 
 .banner-text h1 {
     font-size: 36px;
-    color: skyblue;
+    color: #b52d5f;
 }
 
 .banner-text p {
     margin: 1rem;
     font-size: 18px;
     color: #666;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #f69bba, #d33f73);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
 
 /* =======================
